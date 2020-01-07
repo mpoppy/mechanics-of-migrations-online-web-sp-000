@@ -8,7 +8,7 @@ class CreateArtists < ActiveRecord::Migration[5.2]
 
   end
 
-  def change
+  def change #more common for basic migrations
 
   end
 end
