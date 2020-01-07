@@ -1,10 +1,10 @@
 
 class CreateArtists < ActiveRecord::Migration[5.2]
-  def up
+  def up #code to exit when migration is run
 
   end
 
-  def down
+  def down #code to execute when migration is rolled back
 
   end
 
