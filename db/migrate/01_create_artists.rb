@@ -10,5 +10,10 @@ class CreateArtists < ActiveRecord::Migration[5.2]
 
   def change #more common for basic migrations
     create_table :artists do |t|
+      t.string :name
+      t.string :genre
+      t.string :age
+      t.string :hometown
+    end
   end
 end
