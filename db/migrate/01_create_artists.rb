@@ -9,6 +9,6 @@ class CreateArtists < ActiveRecord::Migration[5.2]
   end
 
   def change #more common for basic migrations
-
+    create_table :artists do |t|
   end
 end
